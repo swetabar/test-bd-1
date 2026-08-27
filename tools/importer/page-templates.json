@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "home",
+      "urls": [
+        "https://www.7up.com/en"
+      ],
+      "representativeUrl": "https://www.7up.com/en",
+      "description": "7UP homepage: tropical hero banner, two promo tiles, product intro, 6-product carousel selector, and per-product nutrition facts.",
+      "urlPattern": "/*",
+      "blocks": [
+        {
+          "name": "hero-tropical",
+          "instances": [
+            "#simple-7up-banner-new > div.banner-wrapper1"
+          ]
+        },
+        {
+          "name": "cards-promo",
+          "instances": [
+            "#simple-7up-banner-new > div.banner-wrapper3"
+          ]
+        },
+        {
+          "name": "carousel-product",
+          "instances": [
+            "#product-carousel-container"
+          ]
+        },
+        {
+          "name": "table-nutrition",
+          "instances": [
+            "#products > div.product table"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "simple-7up-banner-new",
+          "name": "Hero + Promo Tiles",
+          "selector": "#simple-7up-banner-new",
+          "style": null,
+          "blocks": [
+            "hero-tropical",
+            "cards-promo"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "products",
+          "name": "Products",
+          "selector": "#products",
+          "style": "light",
+          "blocks": [
+            "carousel-product",
+            "table-nutrition"
+          ],
+          "defaultContent": [
+            "#products > header.container",
+            "#products > div.product h1",
+            "#products > div.product h2"
+          ]
+        }
+      ]
+    }
+  ]
+}

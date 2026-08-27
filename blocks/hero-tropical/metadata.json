@@ -1,0 +1,38 @@
+{
+  "variantName": "hero-tropical",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-08-27T12:52:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.7up.com/en",
+    "originPage": "7UP homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "background image + heading + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "brand landing pages",
+      "campaign / promotional home pages",
+      "full-bleed illustrated hero banners with a single CTA"
+    ],
+    "notSuitableFor": [
+      "text-only intros without a background image",
+      "content-dense sections requiring multiple columns"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en"],
+    "reuseCount": 1,
+    "lastUsed": "2026-08-27T12:52:00.000Z"
+  }
+}

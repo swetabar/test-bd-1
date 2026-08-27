@@ -1,0 +1,38 @@
+{
+  "variantName": "table-nutrition",
+  "baseBlock": "table",
+  "version": "1.0.0",
+  "created": "2026-08-27T12:52:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.7up.com/en",
+    "originPage": "7UP homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "nutrition-facts",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "header row (Amount Per Serving / %DV) + data rows",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "product nutrition-facts tables",
+      "amount-per-serving / %DV data grids",
+      "any compact structured tabular data"
+    ],
+    "notSuitableFor": [
+      "narrative or single-value content",
+      "content better shown as cards or charts"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en"],
+    "reuseCount": 1,
+    "lastUsed": "2026-08-27T12:52:00.000Z"
+  }
+}

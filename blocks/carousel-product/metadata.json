@@ -1,0 +1,38 @@
+{
+  "variantName": "carousel-product",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-08-27T12:52:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.7up.com/en",
+    "originPage": "7UP homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "product",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + optional content per slide",
+    "buttonCount": 0,
+    "imageCount": 6
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "product galleries with navigable can/pack images",
+      "rotating showcases of multiple products or flavors",
+      "image-forward slide sets with prev/next controls"
+    ],
+    "notSuitableFor": [
+      "single featured image (no rotation needed)",
+      "content that must all be visible at once"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en"],
+    "reuseCount": 1,
+    "lastUsed": "2026-08-27T12:52:00.000Z"
+  }
+}

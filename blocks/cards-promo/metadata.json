@@ -1,0 +1,38 @@
+{
+  "variantName": "cards-promo",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-08-27T12:52:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.7up.com/en",
+    "originPage": "7UP homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "promo",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + description + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "promotional tile pairs / grids linking to sub-sections",
+      "feature highlight cards with image, title, copy and a CTA",
+      "navigation-style call-to-action cards"
+    ],
+    "notSuitableFor": [
+      "text-only card lists (use a no-images cards variant)",
+      "single standalone feature (use a hero or default content)"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en"],
+    "reuseCount": 1,
+    "lastUsed": "2026-08-27T12:52:00.000Z"
+  }
+}

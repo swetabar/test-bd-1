@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "url": "https://www.7up.com/en",
+  "path": "en",
+  "timestamp": "2026-08-27T13:03:32.756Z",
+  "title": "7UP | 7up.com",
+  "template": "home",
+  "blocks": [
+    "hero-tropical",
+    "cards-promo",
+    "cards-promo",
+    "carousel-product",
+    "table-nutrition",
+    "table-nutrition",
+    "table-nutrition",
+    "table-nutrition",
+    "table-nutrition",
+    "table-nutrition"
+  ]
+}
